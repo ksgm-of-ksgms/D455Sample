@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="posefilter" type="posefilter" name="posefilter" output="screen">
+  </node>
+</launch>
+

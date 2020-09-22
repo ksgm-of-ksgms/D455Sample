@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node pkg="cameratracking" type="cameratracking" name="cameratracking" output="screen"  >
+  </node>
+</launch>
+

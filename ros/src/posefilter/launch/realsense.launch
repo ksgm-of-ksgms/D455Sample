@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find realsense2_camera)/launch/rs_camera.launch" />
+  <param name="/camera/realsense2_camera/unite_imu_method" value="linear_interpolation"/>
+  <param name="/camera/realsense2_camera/align_depth" value="true"/>
+  <param name="/camera/realsense2_camera/enable_accel" value="true"/>
+  <param name="/camera/realsense2_camera/enable_gyro" value="true"/>
+  <param name="/camera/realsense2_camera/pointcloud" value="true"/>
+  <param name="/camera/realsense2_camera/filters" value="pointcloud"/>
+  <param name="/camera/realsense2_camera/publish_tf" value="true" />
+</launch>
+
